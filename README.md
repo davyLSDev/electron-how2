@@ -1,23 +1,31 @@
-# Tutorial #
+# electron-how2 #
 
-* [reference](https://scotch.io/@rui/how-to-build-a-cross-platform-desktop-application-with-electron-and-net-core)
+The purpose of this tutorial is to learn from Rui Figueiredo's tutorial and to make a more general purpose tutorial for making crossplatform C# electron angularjs desktop applications.
 
-## api .Net Core console application steps ##
+## Getting Started ##
 
-1. in src/api type:
-```
-dotnet new console
-```
-2. resolve dependencies:
-* in Visual Studio Code there is an extension to automatically detect the need for this and do the *dotnet restore*
-```
-dotnet restore
-```
-3. run new application:
-```
-dotnet run
-```
-4. add required packages to api.csproj file
-    * don't forget to change the version numbers from 1.1.0 (old dotnet versions), to 2.0
-5. rewrite program.cs
-6. add ContactsController.cs in src/api/Controllers
+### Dependencies ###
+
+### Tests ###
+
+### Built With ###
+
+* [electron](https://electron.atom.io/), [angularjs](https://angularjs.org/)              - gui framework for the app
+* [CSharp](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)        - Programming language for the api
+* [dotnet core](https://www.microsoft.com/net/core)   - framework
+
+## Contributing ##
+
+## Versioning ##
+
+## Authors ##
+
+Dawson Tennant
+
+## License ##
+
+This project is under the MIT License - see the [LICENSE.md](https://github.com/davyLSDev/electron-how2/blob/master/LICENSE.md) file for details.
+
+## Acknowledgments ##
+
+* Rui Figueiredo
