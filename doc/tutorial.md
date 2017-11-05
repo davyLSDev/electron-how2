@@ -42,3 +42,18 @@ npm install
 npm start
 ```
 7. voila, the electron window pops up
+8. combine the .Net core console application with the Electron application
+9. add some code in main.js
+10. modify code in main.js from
+```
+app.on('ready', createWindow)
+```
+to:
+```
+app.on('ready', startApi)
+```
+9. then go ahead and run the application with
+```
+npm start
+```
+
