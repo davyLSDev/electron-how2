@@ -56,4 +56,5 @@ app.on('ready', startApi)
 ```
 npm start
 ```
-
+10. Make a fix in the main.js file to make this work on linux also
+    * [note for value detected](https://www.npmjs.com/package/getos) indicates *linux*

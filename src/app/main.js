@@ -75,6 +75,9 @@ function startApi() {
   if (os.platform() === 'darwin') {
     apipath = path.join(__dirname, '..//api//bin//dist//osx//Api')
   }
+  if (os.platform() === 'linux') {
+    apipath = path.join(__dirname, '..//api//bin//Debug//netcoreapp2.0')
+  }
   apiProcess = proc(apipath)
 
   apiProcess.stdout.on('data', (data) => {
